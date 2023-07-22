@@ -216,7 +216,8 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ht-l1/VentureUp",
+      deploy_code_link: "https://ventureup.cyclic.app/",
     },
     {
       name: "Pinverse",
@@ -241,7 +242,8 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ht-l1/Pinverse",
+      deploy_code_link: "https://pinverse.netlify.app/",
     },
     // {
     //   name: "Trip Guide",
