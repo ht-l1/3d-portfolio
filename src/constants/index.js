@@ -15,10 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    sanofi,
+    arvinas,
+    EY,
+    CodeSquad,
+    devs,
+    EYAAF,
+    ArvinasSanofi,
     carrent,
     jobit,
     tripguide,
@@ -116,55 +119,52 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Senior Associate",
+      company_name: "AAF, Ernst & Young",
+      icon: EYAAF,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      // iconBg: "#E6DEDD",
+      date: "Jun 2018 - Jan 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Audits for NFP and financial service clients",
+        "Tests of controls and Substantive test (Tests of Details and Analytical Procedures)",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Senior Analyst",
+      company_name: "Sanofi, Arvinas",
+      icon: ArvinasSanofi,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Budgeting and Forecasting",
+        "Develop financial models and dashboards along with process improvement",
+        "Collaborate cross functionally with Business Operations, Procurement, and Accounting ",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full Stack Developer",
+      company_name: "CodeSquad",
+      icon: CodeSquad,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Nov 2022 - Jun 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed full stack web applications using Node, Express, and MongoDB technologies",
+        "Implemented responsive design and ensuring cross-browser compatibility",
+        // "Participated in code reviews and providing constructive feedback to other developers",
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "100devs",
+      icon: devs,
+      iconBg: "#4E65F1",
+      date: "Jul 2023 - Present",
+      points: [
+        "Developing and maintaining web applications using MERN technologies",
+        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
@@ -200,7 +200,7 @@ import {
     {
       name: "VentureUp",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application that enables users to manage personal projects by adding, updating, and deleting items. Also it gives inspirational ideas, daily quotes and weather forecasts to achieve the one stop for all platform. Users are able to sign in with regular signup methods or Google OAuth2.",
       tags: [
         {
           name: "EJS",
@@ -221,45 +221,49 @@ import {
     {
       name: "Pinverse",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-based blogging community that allows users to make posts with images. Users are able to interact with others by liking or commenting others' posts. Users can also find posts by searching with tags or flipping through the pages with pagination functionality.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "node",
           color: "pink-text-gradient",
+        },
+        {
+          name: "express",
+          color: "blue-text-gradient",
         },
       ],
       image: jobit,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
