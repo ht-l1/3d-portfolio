@@ -22,9 +22,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import EY from "./company/ey.png";
-import sanofi from "./company/sanofi.png";
-import arvinas from "./company/arvinas.jpg";
+// import EY from "./company/ey.png";
+// import sanofi from "./company/sanofi.png";
+// import arvinas from "./company/arvinas.jpg";
 import CodeSquad from "./company/CodeSquad.png";
 import devs from "./company/100devs.png";
 import EYAAF from "./company/EYAAF.png";
