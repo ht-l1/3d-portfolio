@@ -18,7 +18,7 @@ import {
     // sanofi,
     // arvinas,
     // EY,
-    CodeSquad,
+    codesquad,
     devs,
     EYAAF,
     ArvinasSanofi,
@@ -145,7 +145,7 @@ import {
     {
       title: "Full Stack Developer",
       company_name: "CodeSquad",
-      icon: CodeSquad,
+      icon: codesquad,
       iconBg: "#E6DEDD",
       date: "Nov 2022 - Jun 2023",
       points: [

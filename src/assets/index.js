@@ -25,7 +25,7 @@ import threejs from "./tech/threejs.svg";
 // import EY from "./company/ey.png";
 // import sanofi from "./company/sanofi.png";
 // import arvinas from "./company/arvinas.jpg";
-import CodeSquad from "./company/CodeSquad.png";
+import codesquad from "./company/codesquad.png";
 import devs from "./company/100devs.png";
 import EYAAF from "./company/EYAAF.png";
 import ArvinasSanofi from "./company/ArvinasSanofi.png";
@@ -57,7 +57,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  CodeSquad,
+  codesquad,
   // EY,
   // arvinas,
   EYAAF,
